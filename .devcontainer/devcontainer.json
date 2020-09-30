@@ -1,0 +1,16 @@
+{
+    "name": "linux-swift",
+    "context": "..",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+		"Kasik96.swift",
+		"ms-vscode.cpptools",
+		"vadimcn.vscode-lldb",
+		"xaver.clang-format",
+		"llvm-vs-code-extensions.vscode-clangd",
+		"meverser.llvm"
+    ]
+}
